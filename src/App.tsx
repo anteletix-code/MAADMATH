@@ -308,15 +308,7 @@ export default function App() {
                 />
               </div>
 
-              <div className="bg-neutral-900 p-8 rounded-3xl border border-white/5 space-y-4">
-                <div className="flex items-center gap-2 text-purple-500">
-                    <Clock className="w-4 h-4" />
-                    <span className="text-[10px] font-black uppercase tracking-widest">About this game</span>
-                </div>
-                <p className="text-neutral-400 text-sm leading-relaxed max-w-3xl">
-                    Experience "{activeGame.name}" in high definition. This version has been optimized for low-latency browser play using memory-safe execution patterns. Game progress is saved locally via browser state.
-                </p>
-              </div>
+
             </motion.div>
           )}
         </AnimatePresence>
