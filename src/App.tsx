@@ -56,7 +56,7 @@ const GAMES: Game[] = [
     id: "ddlc",
     name: "Doki Doki Literature Club!",
     thumb: "https://www.pngkey.com/png/full/308-3088612_default-ddlc-burned-ddlc-icon.png",
-    url: "/ddlc.html"
+    url: "https://gamingshitposting.github.io/ext-bin-1/games/DDLC-1.1.1-web/index.html"
   }
 ];
 
