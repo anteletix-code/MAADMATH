@@ -51,6 +51,12 @@ const GAMES: Game[] = [
     name: "Escape Road 3",
     thumb: "https://scratchgamesonline.io/data/image/game/escape-road-3/escape-road-3.png",
     url: "/escape-road-3.html"
+  },
+  {
+    id: "ddlc",
+    name: "Doki Doki Literature Club!",
+    thumb: "https://www.pngkey.com/png/full/308-3088612_default-ddlc-burned-ddlc-icon.png",
+    url: "/ddlc.html"
   }
 ];
 
@@ -273,7 +279,7 @@ export default function App() {
                             <!DOCTYPE html>
                             <html>
                               <head>
-                                <title>${activeGame.name}</title>
+                                <title>about:blank</title>
                                 <style>
                                   body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; background-color: black; }
                                   iframe { width: 100%; height: 100%; border: none; }
